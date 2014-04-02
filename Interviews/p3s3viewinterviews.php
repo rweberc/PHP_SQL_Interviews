@@ -16,7 +16,7 @@
 	<?php
 		// Connect to database, suppress any errors (to be outputted with echo statement below, if present
 		// in order to ensure proper html formatting
-		$DBConnect = @mysql_connect("cis.luzerne.edu", "rw0001", "C5JZ00HKDZ");
+		$DBConnect = @mysql_connect("cis.luzerne.edu", {username here}, {password here});
 		
 		
 		// Determine the status of the database connection.  Dislpay some of 
